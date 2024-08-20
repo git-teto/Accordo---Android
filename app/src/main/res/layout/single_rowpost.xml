@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutconstrain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/fotoprofilo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/iconuser" />
+
+    <TextView
+        android:id="@+id/nomeprofilo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="textStart"
+        android:textColor="#FF5722"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fotoprofilo"
+        app:layout_constraintTop_toTopOf="@+id/fotoprofilo" />
+
+    <TextView
+        android:id="@+id/contentscritta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/nomeprofilo"
+        app:layout_constraintStart_toStartOf="@+id/nomeprofilo"
+        app:layout_constraintTop_toBottomOf="@+id/nomeprofilo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

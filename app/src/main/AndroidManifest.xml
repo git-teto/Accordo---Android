@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.accordo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Accordo">
+        <activity android:name=".ActivityPosizioneSuMappa"></activity>
+        <activity android:name=".ActivityPosizione" />
+        <activity android:name=".ActivityInviaImmaginePost" />
+        <activity android:name=".ScriviTextActivity" />
+        <activity android:name=".ActivityFotoIntera" />
+        <activity android:name=".CambiaImmagineActivity" />
+        <activity android:name=".CambiaNomeActivity" />
+        <activity android:name=".CanaleActivity" />
+        <activity android:name=".CreaCanaleActivity" />
+        <activity android:name=".Scrivi" />
+        <activity android:name=".ActivityProfilo" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Accordo</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoidGV0b2N1b3p6bzk4IiwiYSI6ImNraWRidzVlejA4MHEycnJ3MGY4cXl6Z2IifQ.Z-OIZvSkKUYjWTEiwhjR1g</string>
+</resources>

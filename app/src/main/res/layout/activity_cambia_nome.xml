@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CambiaNomeActivity">
+
+    <TextView
+        android:id="@+id/scrittacambianome"
+        android:layout_width="249dp"
+        android:layout_height="47dp"
+        android:text="cambia nome"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tornaaProfilodaCambiaNome"
+        app:layout_constraintTop_toTopOf="@+id/tornaaProfilodaCambiaNome" />
+
+    <TextView
+        android:id="@+id/scrittanuovonome"
+        android:layout_width="204dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="236dp"
+        android:text="Inserisci nuovo nome:"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrittacambianome" />
+
+    <EditText
+        android:id="@+id/nuovonome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nuovo nome"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/scrittanuovonome"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="@+id/scrittanuovonome"
+        app:layout_constraintTop_toBottomOf="@+id/scrittanuovonome" />
+
+    <Button
+        android:id="@+id/invianuovonome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="invia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/nuovonome"
+        app:layout_constraintTop_toBottomOf="@+id/nuovonome"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <Button
+        android:id="@+id/tornaaProfilodaCambiaNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/errormessage"
+        android:layout_width="202dp"
+        android:layout_height="48dp"
+        android:textColor="#F44336"
+        app:layout_constraintEnd_toEndOf="@+id/nuovonome"
+        app:layout_constraintStart_toStartOf="@+id/nuovonome"
+        app:layout_constraintTop_toBottomOf="@+id/nuovonome" />
+</androidx.constraintlayout.widget.ConstraintLayout>
