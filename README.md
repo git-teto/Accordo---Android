@@ -1,6 +1,6 @@
 # Accordo
 
-Mobile Computing project - MSc Computer Science program
+Mobile Computing project
 
 # Descrizione del Progetto
 
