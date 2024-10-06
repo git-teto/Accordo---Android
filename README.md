@@ -20,7 +20,8 @@ Il progetto è un prototipo di client per una piattaforma di discussione online,
 
 - **XML**: Linguaggio utilizzato per definire i layout dell'interfaccia utente e configurare componenti dell'applicazione, come le risorse di stringhe, stili e temi.
 
-- **Model-View-Controller (MVC)**: Pattern architetturale adottato per separare la logica di business, l'interfaccia utente e la gestione dei dati, facilitando la manutenzione e l'espansione del codice.
+- **Model-View-Controller (MVC)**: Pattern architetturale adottato per separare la logica di business, l'interfaccia utente e la gestione dei dati, facilitando la manutenzione e l'espansione del codice, ma anche il Singleton, Adapter, Observer e il DAO.
+
 
 - **Multithreading**: Tecnica per eseguire operazioni in parallelo, utilizzata per mantenere l'applicazione reattiva durante operazioni come il caricamento di immagini o l'invio di messaggi.
 
